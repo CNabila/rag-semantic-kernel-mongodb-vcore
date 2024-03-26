@@ -28,7 +28,7 @@ jobs:
           source venv/bin/activate
       
       - name: Install dependencies
-        run: cd src && pip install -r ./requirements-dev.txt
+        run: pip install -r https://github.com/CNabila/rag-semantic-kernel-mongodb-vcore/blob/main/requirements-dev.txt
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
 
